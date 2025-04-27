@@ -9,8 +9,8 @@ $().ready(function () {
     }
 
     const request = {
-      countryCode: 'AU',
-      currencyCode: 'AUD',
+      countryCode: 'US',
+      currencyCode: 'USD',
       supportedNetworks: ['visa', 'masterCard', 'amex'],
       merchantCapabilities: ['supports3DS'],
       total: { label: 'Test', type: 'final', amount: 100.0 }
